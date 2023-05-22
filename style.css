@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: "Signika Negative", sans-serif;
 }
+/* body {
+  max-width: 900px;
+
 
 /* //Amro */
 .healthy-container {
@@ -100,3 +103,135 @@
 }
 
 /* //Amro */
+/*
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+/* // Daniil */
+.Daniil-Our {
+  background-color: #fff3df;
+  height: 350px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.flex-container-Our {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: stretch;
+  padding-top: 20px;
+}
+
+.flex-items-Our:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-items-Our:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-items-Our:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+.h4-Dan {
+  padding-top: 10px;
+  color: rgb(100, 58, 11);
+}
+.h1-Our {
+  text-align: center;
+  color: rgb(100, 58, 11);
+}
+.p-Our {
+  text-align: center;
+  padding-top: 10px;
+  color: rgb(100, 58, 11);
+}
+
+.Daniil-100 {
+  background-color: #f7dfbb;
+  height: 350px;
+  padding-top: 50px;
+}
+.flex-container-100 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+}
+
+.flex-items-100:nth-child(1) {
+  display: flex;
+  width: 40%;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  justify-content: flex-end;
+}
+
+.flex-items-100:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.h1-100 {
+  color: rgb(100, 58, 11);
+  padding-bottom: 20px;
+}
+.p-100 {
+  color: rgb(100, 58, 11);
+  padding-bottom: 20px;
+}
+
+.btn-100 {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 16px;
+  background: #716c53;
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+}
+
+.btn-100:hover {
+  background: #a19247;
+  text-decoration: none;
+}
+/* Daniil */
