@@ -1,25 +1,102 @@
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: 'Signika Negative', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Signika Negative", sans-serif;
 }
 
-//Foram
+/* //Amro */
+.healthy-container {
+  background-color: bisque;
+}
+.first-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.first-container {
+  position: relative;
+  background-image: url("Shape (3).png"), url("Shape (1).png"),
+    url("Shape (2).png");
+  background-repeat: no-repeat;
+  background-position: 5%, right, center top;
+  background-size: 5%, 5%, 5%;
+}
 
+.seconed-container {
+  position: relative;
+  background-image: url("Shape (3).png"), url("Shape (1).png"),
+    url("Shape (2).png");
+  background-repeat: no-repeat;
+  background-position: 10%, 90%, center top;
+  background-size: 3%, 3%, 5%;
+}
 
+.text-Container {
+  width: 35%;
+}
 
+.text-Container h1 {
+  margin-bottom: 10px;
+}
 
+.first-container img {
+  max-width: 100%;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 25px;
+}
 
-// Daniil
+.first-container button {
+  width: 40%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #716c53;
+  color: #f7f7f7;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 20px;
+}
 
+.seconed-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
 
+.seconed-container h1 {
+  margin-bottom: 10px;
+}
 
+.big-circle {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 2%;
+  margin-right: 2%;
+}
 
+.circle {
+  width: 150px;
+  border-style: solid;
+  border-color: black;
+  height: 150px;
+  border-radius: 50%;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 
-//Amro
+.circle h1 {
+  font-size: 36px;
+  margin-bottom: 5px;
+}
 
-
-
-
-//Koyal
+/* //Amro */
