@@ -3,10 +3,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Signika Negative", sans-serif;
+  color: rgb(100, 58, 11);
 }
 /* body {
   max-width: 900px;
-
+} */
 
 /* footer*/
 
@@ -48,8 +49,9 @@
 
 .header_part {
   background-image: url(./image/hamburger.png);
+  background-size: cover;
   height: 850px;
-  width: 100%;
+  width: auto;
   background-repeat: no-repeat;
 }
 nav {
@@ -194,6 +196,7 @@ nav {
   justify-content: space-around;
   margin-left: 2%;
   margin-right: 2%;
+  padding-bottom: 50px;
 }
 
 .circle {
@@ -333,14 +336,23 @@ nav {
 }
 
 .btn-100 {
-  -webkit-border-radius: 3;
+  /* -webkit-border-radius: 3;
   -moz-border-radius: 3;
   border-radius: 3px;
   color: #ffffff;
   font-size: 16px;
   background: #716c53;
   padding: 10px 30px 10px 30px;
-  text-decoration: none;
+  text-decoration: none; */
+  width: 40%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #716c53;
+  color: #f7f7f7;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 20px;
 }
 
 .btn-100:hover {
