@@ -1,25 +1,83 @@
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: 'Signika Negative', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Signika Negative", sans-serif;
 }
 
-//Foram
+/* //Foram */
 
+.header_part {
+  background-image: url(./image/hamburger.png);
+  height: 850px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+nav {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
 
+#nav_right {
+  display: flex;
+  gap: 90px;
+  font-size: 22px;
+  margin-left: 600px;
+  margin-top: -50px;
+}
 
+#nav_right a {
+  text-decoration: none;
+  display: flex;
+  color: rgb(100, 58, 11);
+  font-weight: bold;
+}
 
+#nav_right a:hover {
+  color: black;
+}
 
-// Daniil
+#nav_left {
+  width: 20%;
+  height: 50%;
+  margin-top: 20px;
+  margin-left: 40px;
+}
 
+#logo {
+  width: 20%;
+  height: 20%;
+}
 
+#cashback_part {
+  margin-left: 40px;
+  margin-top: 140px;
+  font-size: 45px;
+  color: rgb(100, 58, 11);
+}
 
+#header_paragraph {
+  font-size: 32px;
+  margin-top: 20px;
+}
 
+#header_button {
+  font-size: 35px;
+  width: 20%;
+  height: 40px;
+  color: white;
+  /* background-color: rgb(88, 86, 86); */
+  background-color: #716c53;
+  border: none;
+  margin-top: 40px;
+  font-size: 20px;
+}
 
-//Amro
-
-
-
-
-//Koyal
+#header_button:hover {
+  color: white;
+  background-color: #716c53;
+  font-size: 25px;
+}
+/* //Foram */
