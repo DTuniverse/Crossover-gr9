@@ -1,25 +1,43 @@
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: 'Signika Negative', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Signika Negative", sans-serif;
 }
 
-//Foram
+/* footer*/
 
+.footer-container {
+  background-color: rgb(23, 27, 27);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
 
+.footer-container h1 {
+  color: #fffbfb;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
 
+.footer-container p {
+  color: #fff5f5;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
 
+.footer-container img {
+  margin-right: 10px;
+}
 
-// Daniil
+.footer-container a {
+  color: #f3f1f1;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+}
 
-
-
-
-
-//Amro
-
-
-
-
-//Koyal
+/* footer*/
